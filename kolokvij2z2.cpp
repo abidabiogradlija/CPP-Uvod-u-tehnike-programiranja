@@ -5,11 +5,6 @@ void unosVektora(vector<int>&array) {
 	int elem=array.size();
 	cout<<"1. clan: ";
 	cin>>array[0];
-	/*do{
-		cout<<"2. clan: ";
-	 	cin>>array[1];
-	} while((array[0]%5==0 && array[1]%5==0) || (array[0]%5!=0 && array[1]%5!=0));
-	*/
 	for(int i=1; i<elem; i++) {
 		do{
 			cout<<i+1<<".clan: ";
